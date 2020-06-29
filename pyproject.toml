@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "apex-legends-voicelines"
+version = "0.1.1"
+description = ""
+authors = ["Justine Kizhakkinedath <justine@kizhak.com>"]
+license = "MIT License"
+readme = "README.md"
+homepage = "https://justine.kizhak.com/projects/apex-legends-voicelines"
+repository = "https://gitlab.com/justinekizhak/apex-legends-voicelines"
+keywords = [
+  "dotfile manager"
+]
+classifiers = [
+  "Intended Audience :: End Users/Desktop",
+  "Topic :: Games/Entertainment",
+  "Topic :: Text Editors :: Emacs",
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3.8",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+include = [
+  "apex_legends_voicelines/assets/*"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+
+[tool.poetry.scripts]
+apex-voicelines = 'apex_legends_voicelines.__main__:main'
+
+
+[tool.poetry.urls]
+"Bug Reports" = "https://gitlab.com/justinekizhak/devinstaller/issues"
+"Say Thanks!" = "https://saythanks.io/to/justine%40kizhak.com"
