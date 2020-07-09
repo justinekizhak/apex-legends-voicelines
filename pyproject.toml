@@ -1,20 +1,20 @@
 [tool.poetry]
 name = "apex-legends-voicelines"
-version = "0.1.1"
-description = ""
+version = "1.0.0"
+description = "Python program to get a random voiceline from an Apex Legend"
 authors = ["Justine Kizhakkinedath <justine@kizhak.com>"]
 license = "MIT License"
 readme = "README.md"
 homepage = "https://justine.kizhak.com/projects/apex-legends-voicelines"
 repository = "https://gitlab.com/justinekizhak/apex-legends-voicelines"
 keywords = [
-  "dotfile manager"
+  "entertainment", "Apex Legends", "game"
 ]
 classifiers = [
   "Intended Audience :: End Users/Desktop",
   "Topic :: Games/Entertainment",
   "Topic :: Text Editors :: Emacs",
-  "Development Status :: 4 - Beta",
+  "Development Status :: 5 - Production/Stable",
   "Programming Language :: Python :: 3.8",
   "License :: OSI Approved :: MIT License",
   "Operating System :: OS Independent",
@@ -39,5 +39,5 @@ apex-voicelines = 'apex_legends_voicelines.__main__:main'
 
 
 [tool.poetry.urls]
-"Bug Reports" = "https://gitlab.com/justinekizhak/devinstaller/issues"
+"Bug Reports" = "https://gitlab.com/justinekizhak/apex-legends-voicelines/issues"
 "Say Thanks!" = "https://saythanks.io/to/justine%40kizhak.com"
